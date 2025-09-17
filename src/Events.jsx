@@ -14,7 +14,7 @@ function Events() {
             />
           <h3>AI Innovation Hackathon 2025</h3>
           <div className="event-meta">
-            <span className="event-date">March 15-16, 2025</span>
+            <span className="event-date">September 28-29, 2025</span>
             <span className="event-venue">KEC Main Auditorium</span>
             <span className="event-badge">Featured</span>
           </div>
@@ -23,7 +23,7 @@ function Events() {
           </p>
           <button className="register-btn">Register Now</button>
           <div className="event-countdown">
-            <span>⏳ 178 days left</span>
+            <span>⏳ 10 days left</span>
           </div>
         </div>
         <div className="event-card">
