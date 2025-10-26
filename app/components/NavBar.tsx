@@ -16,13 +16,16 @@ export default function Navbar() {
         <NavigationMenu>
           <NavigationMenuList className="hidden sm:flex space-x-6">
             <NavigationMenuItem>
-              <Link href="#about" className="hover:text-indigo-600 transition-colors">About</Link>
+              <Link href="/club/projects" className="hover:text-indigo-600 transition-colors">Projects</Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#events" className="hover:text-indigo-600 transition-colors">Events</Link>
+              <Link href="/club/events" className="hover:text-indigo-600 transition-colors">Events</Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#join" className="hover:text-indigo-600 transition-colors">Join</Link>
+              <Link href="/club/community" className="hover:text-indigo-600 transition-colors">Community</Link>
+            </NavigationMenuItem>
+             <NavigationMenuItem>
+              <Link href="/club/policy" className="hover:text-indigo-600 transition-colors">Policy</Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
